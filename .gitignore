@@ -1,14 +1,23 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
-.vscode
-.vs
-*.VC.db
-*.opensdf
-*.opendb
-*.sdf
+# Binaries and builds
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
 *.sln
+
+# User specific files
+*.user
+*.userprefs
 *.suo
-*.xcodeproj
-*.xcworkspace
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# Ignore config files generated per-user
+*.log
+*.tlog
+*.pdb
+
+# Build output
+Build/
